@@ -1,5 +1,5 @@
 
-document.querySelector('.btn').addEventListener('click', gotClicked)
+document.querySelectorAll('.btn').addEventListener('click', gotClicked)
  
 function gotClicked(){
     const randomN = Math.floor(Math.random() * 100) + 1;
